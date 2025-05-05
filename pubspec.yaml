@@ -1,0 +1,49 @@
+name: widget_lanjutan
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/facebook.png
+    - images/instagram.png
+    - images/youtube.png
+    - images/twitter.png
+    - images/whatsapp.png
+    - images/linkedin.png
+    - images/google-plus.png
+    - images/snapchat.png
+    - images/skype.png
+    - images/spotify.png
+
+  fonts:
+    - family: PlayfairDisplay
+      fonts:
+        - asset: font/playfair_display/PlayfairDisplay-Regular.ttf
+        - asset: font/playfair_display/PlayfairDisplay-Italic.ttf
+        - asset: font/playfair_display/PlayfairDisplay-Medium.ttf
+        - asset: font/playfair_display/PlayfairDisplay-MediumItalic.ttf
+        - asset: font/playfair_display/PlayfairDisplay-SemiBold.ttf
+        - asset: font/playfair_display/PlayfairDisplay-SemiBoldItalic.ttf
+        - asset: font/playfair_display/PlayfairDisplay-Bold.ttf
+        - asset: font/playfair_display/PlayfairDisplay-BoldItalic.ttf
+        - asset: font/playfair_display/PlayfairDisplay-ExtraBold.ttf
+        - asset: font/playfair_display/PlayfairDisplay-ExtraBoldItalic.ttf
+        - asset: font/playfair_display/PlayfairDisplay-Black.ttf
+        - asset: font/playfair_display/PlayfairDisplay-BlackItalic.ttf
